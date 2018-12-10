@@ -1,0 +1,207 @@
+.close{
+	display:none;
+}
+.open{
+	display:block;
+}
+.hidden{
+	visibility:hidden;
+}
+.visible{
+	visibility:visible;
+}
+
+.niz {
+	padding: 3px;
+	}
+
+body{
+	background-color:ffffff;
+	font-family: Verdana, Arial, sans-serif;
+	}
+
+td.line {
+    border: 0px ffe4b2 solid;
+	padding: 0px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-right-width:1px;
+}
+table.menu a:hover{
+    text-decoration: underline;
+}
+table.menu a{
+    color: ffe4b2;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: Verdana, Arial, sans-serif;
+}
+table.menu_left  a{
+    color: ffe4b2;
+	font-size: 12px;
+    text-decoration: none;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+table.menu_left a.nadmenu{
+	font-size: 12px;
+	line-height: 15px;
+    font-weight: bold;
+}
+
+table.menu_left a:visited{
+	color: ffe4b2;
+	font-size: 12px;
+    text-decoration: none;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+table.menu_left a:hover{
+    color: ffaa77;
+    font-size: 12px;
+    text-decoration: none;
+}
+table.menu_left li{
+	color: ffe4b2;
+	line-height: 15px;
+	font-size: 12px;
+}
+td.menu_left {
+    padding-top:0px;
+	padding: 3px; 
+    padding-left:9px; 
+    padding-right:9px; 
+    border:0px solid ffe4b2; 
+    border-bottom-width:1px;
+	line-height: 15px;
+}
+li.top{
+	margin-top:1px;
+}
+li.bottom{
+	margin-bottom:3px;
+}
+td.main {
+	vertical-align:top;
+    text-align: center;
+}
+td.main img{
+    border: white 2px;
+}
+td.main div{
+	border: solid white 2px;
+	padding-top:5px;
+}
+td.main1 div{
+	border-Color: #b22222;
+	border-Right-Width:3px;
+	border-Bottom-Width:3px;
+	border-Left-Width:1px;
+	border-Top-Width:1px;
+}
+td  a{
+    color: b22222;
+    font-size: 70%;
+    text-decoration: none;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+a:link {font-size:13px;font-weight:bold; color:#b22222; text-decoration:underline}
+a:visited {font-size:13px;font-weight:bold; color:#b22222; text-decoration:underline}
+a:hover {font-size:13px;font-weight:bold; color:#000000; text-decoration:none}
+
+input{
+	text-align: right;
+    font-family: Verdana, Arial, sans-serif;
+}
+fieldset div{
+	padding-top: 7px;
+	padding-bottom: 5px;
+	padding-left: 30px;
+}
+fieldset {
+	padding-top: 10px;
+}
+
+table.rasch {
+	border:solid 1px dddddd;
+}
+table.rasch th {
+	border: solid 1px dddddd;
+	font-size: 80%;
+    font-family: Verdana, Arial, sans-serif;
+	background-color: eeeeee;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+table.rasch td{
+    text-align: center;
+	border: solid 1px dddddd;
+	font-size: 80%;
+    font-family: Verdana, Arial, sans-serif;
+	padding: 3px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+body p {
+	font-size: 13px;
+	text-align: justify;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:3px;
+	}
+body ul {
+	font-size: 80%;
+	text-align: justify;
+}
+td.harakt{
+	padding-left:30px;
+	font-weight: bold;
+}
+td.opis{
+	vertical-align:top;
+	padding:5px
+}
+table.katal{
+	border:0px;
+	font-size:85%
+}
+table.forma_r{
+	border:0px;
+	font-size:100%
+}
+div.glava{
+	color:ffe4b2; 
+	padding:5px;
+	font-size:12px;font-weight:bold;
+	text-align:center;
+	background-color: b22222
+}
+
+.tttt{
+	color:ffe4b2; 
+	font-size:15px;font-weight:bold;
+	padding-left:15px;
+
+	}
+	
+	h1 {
+	color:ffe4b2; 
+	font-size:15px;font-weight:bold;
+	padding-left:15px;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin-bottom:0px;
+	}
+
+
+input.red {
+	font: bold 120%;
+	background-color: b22222;
+	color:ffe4b2; 
+    text-align:center; 
+	border: solid cccccc 2px;
+}	
+legend {
+	color: blue
+}

@@ -1,0 +1,141 @@
+<html>
+	<head>
+		<title>"Nexans" - меню сайта </title>
+		<meta http-equiv="Content-Type" content="charset=windows-1251">
+		<META content="Nexans - 'Тёплый пол' и не только... Продажа, монтаж, сервис в Днепре и Харькове" name="Description">
+<META content="Nexans теплый пол комфортный дополнительный обогрев электрообогрев полное дополнительное отопление электроотопление антиобледенение кровли крыши водосточных систем желобов труб снеготаяние лестниц пандусов грунта газонов спортплощадок трубопроводов резервуаров фундамента холодильных камер нагревательный расчет цена стоимость греющий электрический кабель одножильный TXLP FSLe кабельная сетка греющие маты Millimat саморегулирующийся терморегулятор термостат программатор датчик утеплитель ремонт монтаж продажа сервис установка Nexans Norway AS, Alcatel, OJ Elektronik" name="Keywords">
+		<link rel="stylesheet" type="text/css" href="1.css">
+		<base target="ris">
+
+	</head>
+
+	<body class="red" onLoad=sel()>
+
+<script type="text/javascript">
+function inst(){
+	menu = new Array('flor', 'anti', 'grnt', 'prom', 'prch', 'ktlg', 'rash');
+}
+function hide(e){
+	var w = document.getElementById(e);
+	for (var i=0; i<7; i++){
+		if (e != menu[i]){
+			x = document.getElementById(menu[i]);
+			x.className = "close";
+		}
+	}
+	w.className = w.className == "close" ?        "open": "close";
+}
+function sel(){
+		inst();
+	if ((self.parent.length != 0)&&(parent.name != "")){
+		s = parent.name.search(/...._.....htm/);
+		t = parent.name.substr(s,4);
+		hide(t);
+	}
+}
+</script>
+	<table class="menu_left" width="100%" height="100%" cellspacing="0" 
+		style="border:0px solid white; border-right-width:7px; border-top-width:7px;">
+
+      <tr>
+        <td valign="top">
+<table  cellspacing="0" width="100%"><tr><td class="menu_left">
+		<a class="nadmenu" onClick=hide('flor') href="flor_tepl.htm">ОТОПЛЕНИЕ</a>
+			<div  class="close" id="flor">
+				<li class="top"><a href="flor_tepl.htm#pol">"тёплый"&nbsp;пол</a></li>
+				<li><a href="flor_tepl.htm#komfort">комфортный&nbsp;обогрев</a></li>
+				<li class="bottom"><a href="flor_tepl.htm#otopl">полное&nbsp;отопление</a></li>
+			</div>
+</td></tr><tr><td class="menu_left">
+
+		<a class="nadmenu" onClick=hide('anti') href="anti_obld.htm">АНТИОБЛЕДЕНЕНИЕ</a>
+			<div class="close" id="anti" >
+				<li class="top"><a href="anti_obld.htm#krovl">крыш&nbsp;и&nbsp;водостоков</a></li>
+				<li><a href="anti_obld.htm#pandus">лестниц&nbsp;и&nbsp;пандусов</a></li>
+				<li class="bottom"><a href="anti_obld.htm#upravl">управление&nbsp;системой</a></li>
+			</div>
+</td></tr><tr><td class="menu_left">
+
+		<a class="nadmenu" onClick=hide('grnt') href="grnt_tepl.htm">ПОДОГРЕВ&nbsp;ГРУНТА</a>
+			<div id="grnt" class="close">
+				<li class="top"><a href="grnt_tepl.htm#teplic">теплицы&nbsp;и&nbsp;газоны</a></li>
+				<li class="bottom"><a href="grnt_tepl.htm#sport">спортсооружения</a></li>
+			</div>
+</td></tr><tr><td class="menu_left">
+
+		<a class="nadmenu" onClick=hide('prom') href="prom_obog.htm">ПРОМЫШЛЕННОСТЬ</a>
+			<div id="prom" class="close">
+				<li class="top"><a href="prom_obog.htm#rezerv">обогрев&nbsp;резервуаров</a></li>
+				<li class="bottom"><a href="prom_obog.htm#truba">трубопроводов</a></li>
+			</div>
+
+</td></tr><tr><td class="menu_left">
+
+		<a class="nadmenu" onClick=hide('prch') href="prch_prim.htm">ДРУГОЕ&nbsp;ПРИМЕНЕНИЕ</a>
+			<div id="prch" class="close">
+				<li class="top"><a href="prch_prim.htm#holod">холодильные&nbsp;камеры</a></li>
+				<li><a href="prch_prim.htm#beton">бетонирование</a></li>
+				<li><a href="prch_prim.htm#kondensat">антиконденсат</a></li>
+				<li class="bottom"><a href="prch_prim.htm#voler">вольеры</a></li>
+			</div>
+
+</td></tr><tr><td class="menu_left">
+
+		<a class="nadmenu" onClick=hide('ktlg') href="ktlg_prod.htm">КАТАЛОГ&nbsp;&nbsp;И&nbsp;&nbsp;ЦЕНЫ</a>
+			<div id="ktlg" class="close">
+				<li class="top"><a href="ktlg_prod.htm#kabel">кабель</a></li>
+				<li><a href="ktlg_prod.htm#termoreg">терморегуляторы</a></li>
+				<li><a href="ktlg_prod.htm#mater">материалы</a></li>
+				<li class="bottom"><a href="Nexans_OJ_Elektronik.xls">скачать&nbsp;прайс&nbsp;(Excel)</a></li>
+			</div>
+</td></tr>
+<tr><td class="menu_left">
+
+		<a class="nadmenu" onClick=hide('rash') href="rash_flor.htm">РАСЧЕТ&nbsp;СИСТЕМ</a>
+			<div id="rash" class="close">
+				<li class="top"><a href="rash_flor.htm">отопление</a></li>
+				<li><a href="rash_anti.htm">антиобледенение</a></li>
+				<li class="bottom"><a href="rash_trub.htm">трубопровод</a></li>
+			</div>
+</td></tr>
+
+
+
+		</table>
+		
+	 	</td></tr>
+<tr><td height="100%">&nbsp;</td></tr>
+<tr><td align="center">
+<table ><tr><td rowspan="2">
+<a href="http://top100.rambler.ru/top100/"><img border="0" width="70px" src="../Image/r_top100.gif"></a>
+<!--begin of Top100
+<a href="http://top100.rambler.ru/top100/"><img width="70px" src="http://counter.rambler.ru/top100.cnt?710565" alt="Rambler's Top100" border=0></a></td>
+
+<!--end of Top100 code-->
+<td>
+<img src="../Image/counter.gif">
+
+<!--<img  width="70px" src="/cgi-sys/Count.cgi?df=nexans.dat|display=Counter|ft=1|md=5|frgb=100;139;216|dd=B">-->
+
+</td></tr>
+<tr><td>
+<a href="http://www.bigmir.net/"><img border="0" src="../Image/bm_top100.gif"></a>
+<!-- bigmir)net TOP 100 <a href="http://www.bigmir.net/" target=_blank onClick='img = new Image();img.src="http://www.bigmir.net/?cl=103874";' ><script language="javascript"><!--
+bmQ='<img src=http://c.bigmir.net/?s103874&t2'
+bmD=document
+bmD.cookie="b=b"
+if(bmD.cookie)bmQ+='&c1'
+//</script><script language="javascript1.2"><!-- 
+bmS=screen;bmQ+='&d'+(bmS.colorDepth?bmS.colorDepth:bmS.pixelDepth)+"&r"+bmS.width;
+//</script><script language="javascript"><!--
+bmF = bmD.referrer.slice(7);
+((bmI=bmF.indexOf('/'))!=-1)?(bmF=bmF.substring(0,bmI)):(bmI=bmF.length);
+if(bmF!=window.location.href.substring(7,7+bmI))bmQ+='&f'+escape(bmD.referrer);
+bmD.write(bmQ+" border=0  width='70px' alt='bigmir TOP100'>");
+//</script></a>-->
+</td></tr>
+</table></td></tr>        
+    </table>
+
+	</body>
+</html>

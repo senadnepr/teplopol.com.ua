@@ -1,0 +1,6 @@
+ErrorDocument 403 http://www.teplopol.com.ua/404.php
+ErrorDocument 404 http://www.teplopol.com.ua/404.php
+DirectoryIndex index.php index.html
+Options -Indexes
+#AddType "Content-Type: text/html; charset=utf-8" .php
+
